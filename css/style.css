@@ -1,5 +1,18 @@
+/* general */
+html {
+    background-color: #242424;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* general fim */
+/* #4a4a4a */
+/* footer */
 .footer {
-    text-align: center;
+    padding: 55px 0;
+    text-align:center;
+    color: #fff;
+    font-size: 20px;
 }
 
 b {
@@ -7,5 +20,68 @@ b {
 }
 
 p {
+    font-size: 13px;
     font-family: Montserrat;
+    color: #fff;
 }
+
+/* fim footer */
+
+
+/* ------------------ navbar ------------------ */
+/* header  */
+.logo-pos {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    left: 0;
+    text-align: left;
+}
+.logo {
+    margin-bottom: -88px;
+}
+
+.banner {
+    position: relative;
+    display: inline;
+    margin-top: -4px;
+    width: 111%;
+    margin-left: -69px;
+}
+/* fim header */
+.menu, .socials {
+    padding: 25px 0 5px 0;
+    font-size: 12pt;
+    font-family: Montserrat;
+    color: #fff!important;
+    margin: auto 0;
+    text-decoration: none;
+}
+
+.menusize {
+
+}
+.socials {
+    padding: 25px 0 25px 0;
+}
+
+.icon-sz {
+    font-size: 1.5em;
+}
+
+.menu-pos  {
+    margin-top: -16px;
+    text-align: right; 
+}
+
+a, a:visited {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.item-space {
+    padding-right: 1.5vw;
+}
+
+/* ------------------ fim navbar ------------------ */
